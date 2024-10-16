@@ -61,3 +61,51 @@ print("") #Task 14 (You can't change any value)
 
 print("") #Task 15
 
+another_tuple = (5, 13, 24)
+print(another_tuple)
+
+print("") #Task 16
+
+joined_tuple = your_tuple + another_tuple
+
+print("") #Task 17
+
+print(joined_tuple)
+
+print("") #Task 18
+
+your_list = list(joined_tuple)
+
+print("") #Task 19
+
+print(type(your_list))
+
+print("") #Task 20 Set
+
+your_set = set(your_list)
+
+print("") #Task 21
+
+print(len(your_set))
+
+print("") #Task 22
+
+your_set.add("Red")
+print(your_set)
+
+print("") #Task 23
+
+your_set.add(1000)
+
+print("") #Task 24
+
+print(your_set)
+
+print("") #Task 25
+
+another_set = {1000, 3, 4}
+
+print("") #Task 26
+
+new_set= your_set & another_set
+print(new_set)
